@@ -226,13 +226,12 @@ span{
     background-color: white;
     display: flex;
     justify-content: flex-start;
-    margin-top: 1.5rem;
 }
 .right-side-content .grid-container{
     display: grid;
     grid-template-columns: auto auto auto;
     column-gap: 20px;
-    row-gap: 50px;
+    margin-top: 1.5rem;
 }
 .right-side-content .grid-item{
     text-align: center;
@@ -247,6 +246,7 @@ span{
     display: flex;
     justify-content: space-between;
     font-size: 14px;
+    min-width: 790px;
 }
 .display-info span{
     color:#000;
@@ -258,6 +258,15 @@ span{
     padding: 0 10px;
 }
 /*== Category page ends ======================================================= */
+
+/*== Sub category pages starts ======================================================= */
+#romance .grid-container {
+    grid-template-columns: auto auto;
+}
+
+
+/*== Sub category pages page ends ======================================================= */
+
 
 
 .footer{
