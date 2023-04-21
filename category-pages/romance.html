@@ -34,17 +34,24 @@
     </header>
     <!-- Header section ends -->
 
-    <!-- Home section starts -->
-    <!-- Video play -->
-    <section class="banner">
-        <video autoplay loop plays-inline>
-            <source src="../assets/video/category-sale.mp4" type="video/mp4">
-        </video>
+    <!-- Banner section starts -->
+    <section class="home" id="category-banner">
+        <!-- overlay text on backgroun -->
+        <div class="overlay-text">
+            <h1>Can't <span>find</span></h1>
+            <h1>your <span>book</span>?</h1>
+            <div class="search-bar-container">
+                <form action="" class="search-bar">
+                    <input type="text" placeholder="Search books, authors, ISBNs" name="search-text">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></i></button>
+                </form>
+            </div>
+        </div>
     </section>
-    <!-- Home section ends -->
+    <!-- Banner section ends -->
 
     <!-- Content section starts -->
-    <section class="content" id="category-page">
+    <section class="content" id="category-content">
         <!-- category list -->
         <div class="left-side-bar">
             <aside class="category-list">
@@ -129,7 +136,7 @@
                     <p><b>Fiction ></b> Romance</p>
                 </div>
                 <div class="display-result">
-                    <p>Showing 1-2 of 2 results</p>
+                    <p>Showing 1-3 of 3 results</p>
                 </div>
                 <div class="sort-type">
                     <span>Sort by</span>
@@ -141,6 +148,15 @@
 
             <div class="category-box">
                 <div class="grid-container">
+                    <div class="grid-item">
+                        <a href="../book-detail.html">
+                            <img src="../assets/img/fiction-book-1.jpg" alt="fiction-book-1">
+                            <h4>Home Coming</h4>
+                            <p>Kate Morton (Author)</p>
+                            <p><span>$32.00</span> $29.76</p>
+                        </a>
+                    </div>
+
                     <div class="grid-item">
                         <a href="../coming-soon.html">
                             <img src="../assets/img/fiction-book-4.jpg" alt="fiction-book-4">
