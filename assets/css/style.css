@@ -220,7 +220,7 @@ span{
 
 /* Product category  */
 .category-list{
-    width: 300px;
+    width: 250px;
 }
 .category-list li{
     border-bottom: dashed 1px lightgray;
@@ -396,6 +396,123 @@ input::-webkit-inner-spin-button {
 }
 /*== Book detail page ends =======================================================*/
 
+/*== Contact page starts =======================================================*/
+#contact-us-bg{
+    background: url(../img/contact-us-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#contact-content{
+    padding: 20px 18%;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 150px;
+    margin-top:20px;
+}
+
+#contact-content h1{
+    color: var(--span-color);
+    font-size: var(--heading-font);
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+#contact-content .left-side-content{
+    width: 500px;
+}
+
+.form-container label,
+.form-container p,
+#contact-content .right-side-content h3{
+    font-weight: 600;
+}
+
+::-webkit-input-placeholder {
+   font-style: italic;
+}
+
+.form-container input,
+.form-container select{
+    width: 500px;
+    margin-bottom: 20px;
+    padding: 5px 0;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #d1caca;
+}
+
+.preference input{
+    width: 20px;
+    padding: 0;
+}
+
+.preference .normal-text{
+    font-weight: normal;
+}
+
+.preference p{
+    margin-bottom: 10px;
+}
+
+textarea{
+    border: 1px solid #d1caca;
+    border-radius: 5px;
+    outline: none;
+    padding: 3px 0 0 5px;
+}
+
+#contact-content .right-side-content{
+    background: #ffeae0;
+    padding: 20px 40px;
+    border-radius: 20px;
+    height: fit-content;
+    
+}
+
+#contact-content .right-side-content i{
+    color: #fff;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    background: var(--span-color);
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+}
+
+#contact-content h1{
+    text-align: center;
+}
+
+#contact-content .row{
+    display: flex;
+}
+
+#contact-content .text-container{
+    margin: 0 0 30px 15px;
+}
+
+.box-container{
+    display: flex;
+    align-items: center;
+}
+
+.form-container button{
+    width: 100px;
+    height: 40px;
+    text-transform: uppercase;
+    background: var(--span-color);
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    margin: 10px 20px 10px 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/*== Contact page ends =======================================================*/
+
 .footer{
     padding: 10px 18%;
     background-color: var(--header-color);
@@ -441,56 +558,3 @@ input::-webkit-inner-spin-button {
     height: 200px;
 }
 
-@media(max-width: 960px){
-    #menu-icon{
-        display: block;
-        position: absolute;
-        right: 20px;
-        top: 20px
-    }
-    .home,
-    #category-banner{
-        height: 88vh;
-        background: var(--theme-color);
-    }
-    .overlay-text h1{
-        font-size: var(--small-title-font);
-    }
-    header .logo img{
-        display: none;
-    }
-    .navbar{
-        position: absolute;
-        top: 0;
-        right: -100%;
-        width: 270px;
-        height:120vh;
-        background:var(--header-color);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 150px 30px;
-    }
-    .navbar a{
-        display: block;
-        margin: 1.2rem 0;
-    }
-    .open{
-        right:0;
-    }
-    header.sticky{
-        display: none;
-    }
-    .category-box{
-        padding: 2rem 0;
-    }
-    .grid-container{
-        display: block;
-    }
-    .grid-item{
-        padding: .5rem 0;
-    }
-    .heading{
-        font-size: var(--small-heading-font);
-    }
-}
