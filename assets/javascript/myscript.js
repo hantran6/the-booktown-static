@@ -12,7 +12,7 @@ Acknowledgement:
 /*activate header on scroll */
 const header = document.querySelector("header");
 window.addEventListener("scroll", function(){
-    header.classList.toggle("sticky", window.scrollY >= 0);
+    header.classList.toggle("sticky", window.scrollY > 0);
 })
 
 const logo = document.querySelector(".header-logo")
