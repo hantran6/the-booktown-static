@@ -49,11 +49,11 @@ Acknowledgement:
 
     <!-- Banner section starts -->
     <!-- Video play -->
-    <section class="banner">
-        <video autoplay loop plays-inline>
+    <div class="banner">
+        <video autoplay loop playsinline>
             <source src="./assets/video/category-sale.mp4" type="video/mp4">
         </video>
-    </section>
+    </div>
     <!-- Banner section ends -->
 
     <!-- breadcrumb section starts -->
@@ -90,7 +90,7 @@ Acknowledgement:
                    
                 <p>
                     Quantity:
-                    <form action="">
+                    <form action="app/form-processing" method="get" target="_blank">
                         <input type="number" id="quantity" min="1" value="1">
                         <button class="add-to-cart" type="submit">Add to Cart</button>
                     </form>
@@ -99,7 +99,7 @@ Acknowledgement:
                 <div class="text">
                     <h3>Description</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione cupiditate quidem earum distinctio, tempore doloribus, fuga totam eos repellat eum ad, fugiat minus at! Obcaecati officia tenetur asperiores quasi totam.</p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia earum nobis officia, nemo nam voluptates architecto totam, ullam velit perferendis consequuntur, reiciendis laudantium quae iste facere eius aspernatur ducimus pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, veritatis ad rerum sit minus dolor dolorum nesciunt esse, cupiditate quaerat, dignissimos saepe vero dolore in nulla impedit. Doloremque, culpa facere.
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia earum nobis officia, nemo nam voluptates architecto totam, ullam velit perferendis consequuntur, reiciendis laudantium quae iste facere eius aspernatur ducimus pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, veritatis ad rerum sit minus dolor dolorum nesciunt esse, cupiditate quaerat, dignissimos saepe vero dolore in nulla impedit. Doloremque, culpa facere.</p>
                 </div>
             </div>
         </div>
@@ -111,7 +111,7 @@ Acknowledgement:
         <div class="box-container">
             <div class="box">
               <h3>about us</h3>
-              <iframe width="300" height="200" src="https://www.youtube.com/embed/AcfM9Z9MbXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/AcfM9Z9MbXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
     
             <div class="box">
@@ -127,11 +127,7 @@ Acknowledgement:
                     <img src="./assets/img/logo.png" alt="logo">
                 </a>
             </div>
-            
-          </div>
-          
-        </section>
-        <!-- footer section ends -->
+        </div>
     </section>
     <!-- Footer section ends -->
 
