@@ -1,3 +1,14 @@
+/* RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Tran Nguyen Ngoc Han
+ID: s3963227
+Acknowledgement:
+- Books information and images: https://bookshop.org/categories/m/fiction
+- About us video: https://www.youtube.com/watch?v=AcfM9Z9MbXI
+- Icon: https://fontawesome.com/ */
+
 *{
     margin: 0;
     padding: 0;
@@ -176,9 +187,10 @@ span{
 
 /* == Category page start ======================================================= */
 #category-content{
+    display: grid;
+    grid-template-columns: auto auto ;
     padding: 20px 18%;
-    display: flex;
-}
+} 
 
 #category-banner{
     background: url(../img/category-banner.png) no-repeat;
@@ -220,7 +232,7 @@ span{
 
 /* Product category  */
 .category-list{
-    width: 250px;
+    width: 300px;
 }
 .category-list li{
     border-bottom: dashed 1px lightgray;
@@ -251,13 +263,6 @@ span{
     font-style: italic;
 } 
 
-.banner video{
-    padding: 1rem 0;
-    width: 100%;
-    height: 80vh;
-    background-color: var(--theme-color);
-}
-
 .right-side-content .category-box{
     margin-left: 7rem;
     background-color: white;
@@ -274,16 +279,15 @@ span{
     text-align: center;
     width: 250px;
 }
-
 .display-info{
-    margin-left: 7rem;
+    margin-left: 4rem;
     padding: 10px 0;
     border-top: 1px solid #e1e1e1;
     border-bottom: 1px solid #e1e1e1;
     display: flex;
     justify-content: space-between;
     font-size: 14px;
-    min-width: 790px;
+    width: 100%;
 }
 .display-info span{
     color:#000;
@@ -312,16 +316,13 @@ span{
     border-top: 1px solid #e1e1e1;
     border-bottom: 1px solid #e1e1e1;
 }
-
 .breadcrumb a{
     color: #000;
 }
-
 .breadcrumb a:nth-child(1){
     font-weight: bolder;
     text-decoration: underline;
 }
-
 .breadcrumb a:nth-child(2){
     text-decoration: underline;
 }
@@ -331,24 +332,20 @@ span{
     display: flex;
     margin-bottom: 20px;;
 }
-
 .text-container span{
     color: red;
     text-decoration: line-through;
     padding-right: 10px;
 }
-
 .sub-img{
     display: flex;
     flex-direction: column;
     margin-left: 10px;
 }
-
 .main-img img{
     width: 250px;
     box-shadow: 0 0 0.7rem rgba(0,0,0,.6);
 }
-
 .sub-img img{
     height: 105px;
     margin: 10px 0 10px 20px;
@@ -467,7 +464,6 @@ textarea{
     padding: 20px 40px;
     border-radius: 20px;
     height: fit-content;
-    
 }
 
 #contact-content .right-side-content i{
