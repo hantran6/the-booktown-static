@@ -10,6 +10,7 @@ Acknowledgement:
 - Icon: https://fontawesome.com/ */
 
 @media(max-width: 960px){
+    /*== Home and general starts ==================================================================================== */
     #menu-icon{
         display: block;
         position: absolute;
@@ -75,6 +76,9 @@ Acknowledgement:
     .category-box{
         padding: 2rem 0;
     }
+    /*== Home and general ends ==================================================================================== */
+
+    /*== Category page starts ==================================================================================== */
     #category-banner{
         width: 100%;
         min-height: fit-content;
@@ -107,6 +111,7 @@ Acknowledgement:
     .search-bar-container{
         width: 100%;
     }
+
     .left-side-bar{
         order:2;
     }
@@ -118,6 +123,7 @@ Acknowledgement:
         font-size: 14px;
         font-style: italic;
     }
+
     .right-side-content{
         width: 100%;
     }
@@ -140,15 +146,18 @@ Acknowledgement:
     .right-side-content .grid-item p:nth-child(3){
         display: none;
     }
+    /*== Category page ends ==================================================================================== */
 
-    /* book detail starts */
+    /*== Book-detail page starts ==================================================================================== */
     .banner video{
         height: 400px;
     }
+
     .breadcrumb{
         display: block;
         padding: 5px 10px;
     }
+
     .content-container{
         display: block;
         padding: 20px 50px;
@@ -165,19 +174,20 @@ Acknowledgement:
         margin: 0;
         padding: 30px 0;
     }
+    /*== Book-detail page ends ==================================================================================== */
 
-    /* contact starts */
+    /*== Contact page starts ==================================================================================== */
     #contact-content{
         display: block;
         padding: 15px;
     }
-    
     #contact-content h1{
         font-size: 25px;
     }
     #contact-content .left-side-content{
         width: 100%;
     }
+
     .form-container input,
     .form-container select{
         width: 100%;
@@ -199,7 +209,7 @@ Acknowledgement:
     textarea{
         width: 100%;
     }
-    
+
     #contact-content .right-side-content{
         margin: 40px 0;
         padding: 10px;
@@ -223,10 +233,14 @@ Acknowledgement:
         width: 250px;
         height: 250px
     }
-    /* footer starts */
+    /*== Contact page ends ==================================================================================== */
+
+    /*== Footer starts ==================================================================================== */
     .footer{
         padding: 10px;
     }
+    /*== Footer ends ==================================================================================== */
+
 }
     
     
