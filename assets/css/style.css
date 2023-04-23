@@ -30,6 +30,7 @@ body{
     --bg-color: #fff;
     --theme-color:#FEF5ED;
     --span-color: #ce7852;
+    --light-span-color: #e68359;
     --header-color: #d38f42;
 }
 
@@ -82,6 +83,24 @@ header.sticky .logo img{
     z-index: 10001;
     cursor:pointer;
     display: none;
+}
+
+/* img zoom on hover */
+img:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.sub-img img:hover{
+    transition: 0.5s;
+    transform: scale(1.5);
+}
+.logo img:hover{
+    transform:none;
+    transition: none;
+}
+.view-btn:hover{
+    transform: scale(1.1);
+    transition: none;
 }
 
 /* footer */
@@ -419,10 +438,10 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-.add-to-cart{
+.cart-btn{
     background:var(--span-color);
     border: none;
-    font-size: 14px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 500;
     height: 40px;
@@ -430,7 +449,15 @@ input::-webkit-inner-spin-button {
     padding: 0 25px;
     color: #fff;
 }
-
+.cart-btn i{
+    font-size: 16px;
+    margin-right: 5px;
+    
+}
+.cart-btn:hover,
+.btn-container button:hover{
+    background: var(--light-span-color)
+}
 /* Description text */
 .text p{
     text-align: justify;
