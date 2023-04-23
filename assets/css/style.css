@@ -221,7 +221,7 @@ span{
 }
 .grid-item{
     text-align: center;
-    width: 250px;
+    width: 300px;
 }
 .grid-item a{
     color:var(--text-color);
@@ -231,6 +231,7 @@ span{
     text-decoration: line-through;
 }
 .grid-item img{
+    margin: 15px 0;
     box-shadow: 0 0 0.7rem rgba(0,0,0,.6);
 }
 
