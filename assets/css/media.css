@@ -35,7 +35,8 @@ Acknowledgement:
         text-shadow: 1px 1px #424242;
     }
     .shop-btn,
-    .search-bar-container{
+    .search-bar-container,
+    #coming-soon-banner .overlay-text p{
         padding: 0 5px;
         margin: 5px 0 30px 0;
     }

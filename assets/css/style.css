@@ -571,6 +571,25 @@ textarea{
 }
 /*== Contact page ends =======================================================*/
 
+/*== Coming soon page starts =======================================================*/
+#coming-soon-banner{
+    background: url(../img/coming-soon-banner.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#coming-soon-banner .overlay-text p{
+    color: var(--text-color);
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    line-height: 30px;
+    margin-top:30px;
+    text-transform: uppercase;
+    align-items: center;
+}
+/*== Coming soon page ends =======================================================*/
+
 
 
 
