@@ -382,14 +382,9 @@ span{
 .breadcrumb a{
     color: #000;
 }
-.breadcrumb a:nth-child(1){
+.breadcrumb a:nth-child(-n+3){
     font-weight: bolder;
-    text-decoration: underline;
 }
-.breadcrumb a:nth-child(2){
-    text-decoration: underline;
-}
-
 .content-container{
     padding: 20px 18%;
     display: flex;
