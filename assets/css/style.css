@@ -297,6 +297,7 @@ span{
 }
 .category-list a{
     color:#000;
+    cursor: pointer;
 }
 .category-list h3{
     text-transform: uppercase;
